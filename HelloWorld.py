@@ -4,6 +4,9 @@ print("We are currently using github")
 import random
 
 a =(random.random())
+b = (random.randint(40,100))
 
-print(round(a, 3))
+c = (round(a + b, 2))
+
+cd = ["N", "E", ""]
 
