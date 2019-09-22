@@ -9,7 +9,7 @@ def cd_gen(times = 1):
 
         c = (round(a + b, 2))
 
-        cd_list = ["N", "E", "S", "W", "SE", "SW", "NW", "NE"]
+        cd_list = ["N", "E", "S", "W", "SE", "SW", "NW",  "NE"]
 
         cd = random.choice(cd_list)
         return(str(c) + "°" + cd)
