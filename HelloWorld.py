@@ -68,10 +68,19 @@ for x in a:
 
 print(y)
 '''
-
+'''
 #hi
 my_list = [10,2,3,5,2,1,6,3,5,2,2]
 a = 2# element to be found
 for x in range(len(my_list)):#traversing through length of the list
     if my_list[x] == a:
         print(x)
+'''
+
+a = [1, 2, 3, 4, 100, 6]
+if len(a)%2 == 1:
+    y = int(len(a)/2) + 1
+    print(a[y - 1])
+else:
+    if len(a)% 2 == 0:
+
